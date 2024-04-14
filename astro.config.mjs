@@ -6,6 +6,18 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Applied Genomics',
+      // Add a script to use web analytics.
+      head: [
+        {
+          tag: 'script',
+          attrs: {
+            // Tweaks to the script URL or attributes can be made here.
+            src: '//gc.zgo.at/count.js',
+            'data-goatcounter': 'https://applied-genomics.goatcounter.com/count',
+            async: true,
+          },
+        },
+      ],
       social: {
         github: 'https://github.com/Applied-Genomics-UTD',
       },
