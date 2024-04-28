@@ -26,12 +26,12 @@ export default defineConfig({
           label: 'Course',
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: 'Overview', link: '/guides/00-overview' },
-            { label: 'Week 1', link: '/guides/week_01/' },
-            { label: 'Week 2', link: '/guides/week_02/' },
-            { label: 'RNA-Seq', link: '/guides/rna-seq/' },
-            { label: 'ChIP-Seq', link: '/guides/chip-seq/' },
-            { label: 'Variant Calling', link: '/guides/variant-calling/' },
+            { label: 'Overview', link: '/course/' },
+            { label: 'Week 1', link: '/course/week_01/' },
+            { label: 'Week 2', link: '/course/week_02/' },
+            { label: 'RNA-Seq', link: '/course/rna-seq/' },
+            { label: 'ChIP-Seq', link: '/course/chip-seq/' },
+            { label: 'Variant Calling', link: '/course/variant-calling/' },
           ],
         },
         {
