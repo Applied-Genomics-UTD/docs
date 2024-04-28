@@ -2,10 +2,30 @@
 id: overview
 title: Course Overview
 description: Course Overview
-sidebar_label: 'Overview'
+sidebar_label: "Overview"
 ---
 
-# Overview
+## Course Structure
+
+- Short Lecture over a relevant topic
+- Lab time, with an assignment teaching the related topic(Due next Tuesday?)
+
+- Small toy project once a week for a grade(Replaces quizzes that got eaten alive last summer)
+  - If students are spending more than an hour on them reach out for help!
+
+## Overview
+
+| WEEK | TUESDAY                                                          | THURSDAY                                 |
+| ---: | ---------------------------------------------------------------- | ---------------------------------------- |
+|    1 | Introduction/[Setup Environment](./week_01/environment_setup.md) | [Intro to Unix](./week_01/intro_unix.md) |
+|    2 | Introduction to git                                              | Introduction to Snakemake                |
+| 3 | Launching our first nf-core pipeline | Launching our first nf-core pipeline|
+| 4 
+
+No this is the samething. We're going too into the bioinformatics weeds, and not enough computational biology and genomics
+
+| 3 | Introduction to sequencing (RNAseq FastQC) | Introduction to alignment |
+| 4 | FeatureCounts      | Differential Expression|
 
 | WEEK | TUESDAY                                                          | THURSDAY                                 |
 | ---: | ---------------------------------------------------------------- | ---------------------------------------- |
@@ -22,10 +42,9 @@ sidebar_label: 'Overview'
 |   10 | Intro to Variant Calling                                         | Variant Calling Continued/Xena Browser   |
 |   11 | Project Work Day                                                 | Group Demo Day/Concluding Remarks        |
 
-
 Issues with Biostars? [Create an issue!](https://github.com/biostars/biostar-handbook/issues/new)
 
-# Course Alumni
+## Course Alumni
 
 | Alumni             | Semester | GitHub        | ag-intro Repo                                                               |
 | ------------------ | -------- | ------------- | --------------------------------------------------------------------------- |
