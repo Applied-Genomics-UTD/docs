@@ -15,17 +15,25 @@ sidebar_label: "Overview"
 
 ## Overview
 
-| WEEK | TUESDAY                                                          | THURSDAY                                 |
-| ---: | ---------------------------------------------------------------- | ---------------------------------------- |
-|    1 | Introduction/[Setup Environment](./week_01/environment_setup.md) | [Intro to Unix](./week_01/intro_unix.md) |
-|    2 | Introduction to git                                              | Introduction to Snakemake                |
-| 3 | Launching our first nf-core pipeline | Launching our first nf-core pipeline|
-| 4 
+### Sections
+
+- Weeks 1-4 - Intro to Unix and Computational Genomics, and Raw data pre-processing
+- Weeks 4-7 - Databases and catalogs, Utilizing published data
+- Weeks 9-10.5 - Galaxy Analysis, Final project presentation
+
+| WEEK | TUESDAY                                                                                                                              | THURSDAY                                                                                                                             | ASSIGNMENT |
+| ---: | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
+|    1 | Introduction/[Setup Environment](./week_01/environment_setup.md)                                                                     | [Intro to Unix](./week_01/intro_unix.md)                                                                                             |            |
+|    2 | Introduction to git                                                                                                                  | Using AI in scripting and programming                                                                                                |            |
+|    3 | Introduction to Snakemake                                                                                                            | Launching our first nf-core pipeline                                                                                                 |            |
+|    4 | Analyzing nf-core/rnaseq output([Golden Snitch Part 7-9](https://www.biostarhandbook.com/books/rnaseq/differential-expression.html)) | Analyzing nf-core/rnaseq output([Golden Snitch Part 7-9](https://www.biostarhandbook.com/books/rnaseq/differential-expression.html)) |            |
+
+<!-- https://github.com/deanslee/FigureOneLab -->
 
 No this is the samething. We're going too into the bioinformatics weeds, and not enough computational biology and genomics
 
 | 3 | Introduction to sequencing (RNAseq FastQC) | Introduction to alignment |
-| 4 | FeatureCounts      | Differential Expression|
+| 4 | FeatureCounts | Differential Expression|
 
 | WEEK | TUESDAY                                                          | THURSDAY                                 |
 | ---: | ---------------------------------------------------------------- | ---------------------------------------- |
