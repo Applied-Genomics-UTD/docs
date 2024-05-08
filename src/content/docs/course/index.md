@@ -21,34 +21,29 @@ sidebar_label: "Overview"
 - Weeks 4-7 - Databases and catalogs, Utilizing published data
 - Weeks 9-10.5 - Galaxy Analysis, Final project presentation
 
-| WEEK | TUESDAY                                                                                                                              | THURSDAY                                                                                                                             | ASSIGNMENT |
-| ---: | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
-|    1 | Introduction/[Setup Environment](./week_01/environment_setup.md)                                                                     | [Intro to Unix](./week_01/intro_unix.md)                                                                                             |            |
-|    2 | Introduction to git                                                                                                                  | Using AI in scripting and programming                                                                                                |            |
-|    3 | Introduction to Snakemake                                                                                                            | Launching our first nf-core pipeline                                                                                                 |            |
-|    4 | Analyzing nf-core/rnaseq output([Golden Snitch Part 7-9](https://www.biostarhandbook.com/books/rnaseq/differential-expression.html)) | Analyzing nf-core/rnaseq output([Golden Snitch Part 7-9](https://www.biostarhandbook.com/books/rnaseq/differential-expression.html)) |            |
-
-<!-- https://github.com/deanslee/FigureOneLab -->
-
-No this is the samething. We're going too into the bioinformatics weeds, and not enough computational biology and genomics
-
-| 3 | Introduction to sequencing (RNAseq FastQC) | Introduction to alignment |
-| 4 | FeatureCounts | Differential Expression|
-
-| WEEK | TUESDAY                                                          | THURSDAY                                 |
-| ---: | ---------------------------------------------------------------- | ---------------------------------------- |
-|    1 | Introduction/[Setup Environment](./week_01/environment_setup.md) | [Intro to Unix](./week_01/intro_unix.md) |
-|    2 | [Reproducible Computing](./week_02/intro.md)                     | Group Project 1 Introduction Lab         |
-|    3 | RNA-seq by Example                                               | RNA-seq by Example                       |
-|    4 | RNA-seq by Example                                               | RNA-seq by Example                       |
-|    5 | The Grouchy Grinch                                               | The Grouchy Grinch                       |
-|    6 | RNA-seq Presentations / ChIP-Seq Intro                           | ChIP-Seq                                 |
-|    7 | Nextflow Scripting                                               | Nextflow Scripting                       |
-|    8 | ChIP-seq Pipeline                                                | ChIP-seq Pipeline                        |
-|    8 | ChIP-seq Pipeline                                                | ChIP-seq Pipeline                        |
-|    9 | Project 2 Demo day / Intro to module 3 project                   | Variant Calling                          |
-|   10 | Intro to Variant Calling                                         | Variant Calling Continued/Xena Browser   |
-|   11 | Project Work Day                                                 | Group Demo Day/Concluding Remarks        |
+| Week |    Date |                                                      |
+| ---: | ------: | ---------------------------------------------------- |
+|    1 | 5/28/24 | Introduction                                         |
+|      | 5/30/24 | Setup Environment                                    |
+|    2 |  6/4/24 | Lab: Intro to Unix                                   |
+|      |  6/6/24 | Lab: Reproducible Computing                          |
+|    3 | 6/11/24 | Group Project 1 Introduction Lab: Snakemake pipeline |
+|      | 6/13/24 | Transcriptomics                                      |
+|    4 | 6/18/24 | Lab: nf-core                                         |
+|      | 6/20/24 | Lab:                                                 |
+|    5 | 6/25/24 | Databases - UCSC genome browser, ENSEMBL             |
+|      | 6/27/24 | Lab: galaxy browser                                  |
+|    6 |  7/2/24 | Lab: Cosmic database (online and R console)          |
+|      |  7/4/24 | no class - holiday                                   |
+|    7 |  7/9/24 | Epigenomics                                          |
+|      | 7/11/24 | Lab: ChIP-seq                                        |
+|    8 | 7/16/24 | Lab: ATAC-seq                                        |
+|      | 7/18/24 | Lab: methylC-seq                                     |
+|    9 | 7/23/24 | Project work day                                     |
+|      | 7/25/24 | Project work day                                     |
+|   10 | 7/30/24 | Project work day                                     |
+|      |  8/1/24 | Project Presentations                                |
+|   11 |  8/6/24 | Project Presentations                                |
 
 Issues with Biostars? [Create an issue!](https://github.com/biostars/biostar-handbook/issues/new)
 
