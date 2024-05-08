@@ -15,12 +15,6 @@ sidebar_label: "Overview"
 
 ## Overview
 
-### Sections
-
-- Weeks 1-4 - Intro to Unix and Computational Genomics, and Raw data pre-processing
-- Weeks 4-7 - Databases and catalogs, Utilizing published data
-- Weeks 9-10.5 - Galaxy Analysis, Final project presentation
-
 | Week |    Date |                                                      |
 | ---: | ------: | ---------------------------------------------------- |
 |    1 | 5/28/24 | Introduction                                         |
@@ -45,15 +39,10 @@ sidebar_label: "Overview"
 |      |  8/1/24 | Project Presentations                                |
 |   11 |  8/6/24 | Project Presentations                                |
 
+## Sections
+
+- Weeks 1-4 - Intro to Unix and Computational Genomics, and Raw data pre-processing
+- Weeks 4-7 - Databases and catalogs, Utilizing published data
+- Weeks 9-10.5 - Galaxy Analysis, Final project presentation
+
 Issues with Biostars? [Create an issue!](https://github.com/biostars/biostar-handbook/issues/new)
-
-## Course Alumni
-
-| Alumni             | Semester | GitHub        | ag-intro Repo                                                               |
-| ------------------ | -------- | ------------- | --------------------------------------------------------------------------- |
-| Stephanie Yamauchi | 21U      | syamauchi2000 | [syamauchi2000/ag-intro](https://github.com/syamauchi2000/ag-intro)         |
-| Hiba Fatima        | 21U      | hxf190002     | [hxf190002/ag-intro](https://github.com/hxf190002/ag-intro)                 |
-| Mufeed Kamal       | 21U      | Mufeedmk4     | [Mufeedmk4/ag-intro](https://github.com/Mufeedmk4/ag-intro)                 |
-| Saleh Karim        | 21U      | Salehkarim21  | [Salehkarim21/6-1-2021-Repo](https://github.com/Salehkarim21/6-1-2021-Repo) |
-| Muneer Yaqub       | 21U      | muneeryaqub   | [muneeryaqub/ag-intro](https://github.com/muneeryaqub/ag-intro)             |
-| Luke Ballew        | 21U      | lxb190012     | [lxb190013/ag-intro](https://github.com/lxb190013/ag-intro)                 |
