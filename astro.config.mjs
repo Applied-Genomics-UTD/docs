@@ -6,6 +6,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Applied Genomics",
+      editLink: {
+        baseUrl: "https://github.com/Applied-Genomics-UTD/docs/edit/main/",
+      },
       // Add a script to use web analytics.
       head: [
         {
