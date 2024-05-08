@@ -1,9 +1,9 @@
 ---
-id: env
-title: Environment Setup
+title: Intro to Unix
 description: ''
-sidebar_label: 'Environment Setup'
-sidebar_position: 1
+sidebar:
+  label: Environment Setup
+  order: 2
 ---
 
 # Environment Setup
