@@ -7,7 +7,7 @@ sidebar_position: 2
 ---
 
 So we want to crunch some big numbers, but we also want the flexibility and
-quick iterations that [Jupyter](../week_02/jupyter) gives us.
+quick iterations that [Jupyter](./jupyter.md) gives us.
 
 ## Setup the Conda Environment
 

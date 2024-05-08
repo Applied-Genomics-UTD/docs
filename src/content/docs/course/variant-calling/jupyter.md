@@ -6,9 +6,9 @@ sidebar_label: 'Jupyter'
 sidebar_position: 3
 ---
 
-In the last section we touched on [R Markdown](./documentation#r-markdown),
+In the last section we touched on [R Markdown](https://rmarkdown.rstudio.com/),
 which was a great introduction to interactive computing in a reproducible way.
-Another standard that people love to use for data analysis, are jupyter
+Another standard that people love to use for data analysis, are Jupyter
 notebooks. There are a lot of different ways to interact with Jupyter Notebooks
 and some pros and cons to them that we'll address.
 
