@@ -57,10 +57,12 @@ MacOS:
 
 [Biostar Handbook: 8. Installing on a Computer Cluster](https://www.biostarhandbook.com/cluster-setup.html#cluster-setup)
 
-You'll need to run
+You'll need to run and go through the prompts
 
 ```sh
-module load anaconda3
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+bash Miniforge3-$(uname)-$(uname -m).sh
+
 conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
