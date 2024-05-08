@@ -18,13 +18,13 @@ sidebar_label: "Overview"
 | Week |    Date |                                                      |
 | ---: | ------: | ---------------------------------------------------- |
 |    1 | 5/28/24 | Introduction                                         |
-|      | 5/30/24 | Setup Environment                                    |
-|    2 |  6/4/24 | Lab: Intro to Unix                                   |
+|      | 5/30/24 | Lab: Intro to Unix                                   |
+|    2 |  6/4/24 |                                                      |
 |      |  6/6/24 | Lab: Reproducible Computing                          |
 |    3 | 6/11/24 | Group Project 1 Introduction Lab: Snakemake pipeline |
 |      | 6/13/24 | Transcriptomics                                      |
 |    4 | 6/18/24 | Lab: nf-core                                         |
-|      | 6/20/24 | Lab:                                                 |
+|      | 6/20/24 | Lab: High Performance Compute Clusters               |
 |    5 | 6/25/24 | Databases - UCSC genome browser, ENSEMBL             |
 |      | 6/27/24 | Lab: galaxy browser                                  |
 |    6 |  7/2/24 | Lab: Cosmic database (online and R console)          |
