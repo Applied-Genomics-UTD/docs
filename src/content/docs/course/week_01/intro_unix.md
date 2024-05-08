@@ -49,3 +49,6 @@ Open your `~/.bash_history` file after completing it and paste the commands you
 ran into a file named `data-compression.sh`
 
 [^1]: https://www.biostarhandbook.com/edu/lecture/view/88/
+
+[^2]: [Practical Research Computing Unix Lecture](/practical-research-computing/02-unix.pdf)
+[^3]: [The Missing Semester: The Shell](https://missing.csail.mit.edu/2020/course-shell/)
