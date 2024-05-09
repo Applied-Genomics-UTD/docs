@@ -1,5 +1,4 @@
 ---
-id: hpc
 title: High Performance Computing
 description: 'How to use big computers'
 sidebar_label: 'HPC'

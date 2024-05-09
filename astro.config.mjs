@@ -49,9 +49,6 @@ export default defineConfig({
               label: "Week 4",
               autogenerate: { directory: "/course/week_04/" },
             },
-            { label: "RNA-Seq", link: "/course/rna-seq/" },
-            { label: "ChIP-Seq", link: "/course/chip-seq/" },
-            { label: "Variant Calling", link: "/course/variant-calling/" },
           ],
         },
         {
