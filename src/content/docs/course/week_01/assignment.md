@@ -3,6 +3,9 @@ title: Assignment 1
 description: "Creating a GitHub account"
 sidebar:
   order: 3
+  badge:
+    text: Assignment
+    variant: caution
 ---
 
 # Assignment 1

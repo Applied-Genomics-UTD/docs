@@ -1,8 +1,6 @@
 ---
-id: overview
 title: Course Overview
-description: Course Overview
-sidebar_label: "Overview"
+description: Week by week overview of course Labs and Lectures
 ---
 
 ## Course Structure
