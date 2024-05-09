@@ -1,9 +1,6 @@
 ---
-id: transcriptomics
 title: Transcriptomics
-description: ''
-sidebar_label: 'Transcriptomics'
-sidebar_position: 1
+description: Lecture
 ---
 
 ## Reading
