@@ -1,9 +1,11 @@
 ---
-id: nf-core
 title: nf-core
 description: 'A community effort to collect a curated set of analysis pipelines built using Nextflow.'
-sidebar_label: 'nf-core'
-sidebar_position: 3
+sidebar:
+  order: 1
+  badge:
+    text: Lab
+    variant: tip
 ---
 
 ## nf-core Intro
@@ -142,3 +144,4 @@ While we're waiting let's check out the [shell script that would've ran all of t
 2. Now that the multiqc report is on your local computer open it up in a web
    browser. Preferably next to the [pipeline's output
    docs](https://nf-co.re/chipseq/dev/output).
+
