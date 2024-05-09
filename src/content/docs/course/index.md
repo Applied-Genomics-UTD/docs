@@ -17,7 +17,7 @@ description: Week by week overview of course Labs and Lectures
 | ---: | ------: | ---------------------------------------------------- |
 |    1 | 5/28/24 | Introduction                                         |
 |      | 5/30/24 | Lab: Intro to Unix                                   |
-|    2 |  6/4/24 | Lab: Reproducible Research                                                                               |
+|    2 |  6/4/24 | Lab: Reproducible Research                           |
 |      |  6/6/24 | Lab: Reproducible Computing                          |
 |    3 | 6/11/24 | Group Project 1 Introduction Lab: Snakemake pipeline |
 |      | 6/13/24 | Transcriptomics                                      |
@@ -30,7 +30,7 @@ description: Week by week overview of course Labs and Lectures
 |    7 |  7/9/24 | Epigenomics                                          |
 |      | 7/11/24 | Lab: ChIP-seq                                        |
 |    8 | 7/16/24 | Lab: ATAC-seq                                        |
-|      | 7/18/24 | Lab: methyl-seq                                     |
+|      | 7/18/24 | Lab: methyl-seq                                      |
 |    9 | 7/23/24 | Project work day                                     |
 |      | 7/25/24 | Project work day                                     |
 |   10 | 7/30/24 | Project work day                                     |
@@ -43,4 +43,6 @@ description: Week by week overview of course Labs and Lectures
 - Weeks 4-7 - Databases and catalogs, Utilizing published data
 - Weeks 9-10.5 - Galaxy Analysis, Final project presentation
 
-Issues with Biostars? [Create an issue!](https://github.com/biostars/biostar-handbook/issues/new)
+## Issues with Biostars?
+
+[Create an issue!](https://github.com/biostars/biostar-handbook/issues/new)
