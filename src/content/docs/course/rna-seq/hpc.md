@@ -115,7 +115,7 @@ login $ wget https://github.com/nf-core/test-datasets/raw/modules/data/genomics/
 
 While we're at it, let's through these commands into our `Makefile` so we don't forget the commands!
 
-```Makefile
+```make
 download_data: genome.gtf test.paired_end.sorted.bam
 
 genome.gtf:

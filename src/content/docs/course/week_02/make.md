@@ -47,7 +47,7 @@ they're something the code creates(A _side effect_).
 You might notice that git picked up all of the txt files. A special file called
 `.gitignore` will tell git to ignore them and avoid tracking their history. Create it and throw the following the file
 
-```gitignore title=".gitignore"
+```codeowners title=".gitignore"
 reads/
 refs/
 vcf/

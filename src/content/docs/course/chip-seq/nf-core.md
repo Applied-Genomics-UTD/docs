@@ -46,7 +46,7 @@ nextflow run nf-core/chipseq -profile test,utd_sysbio -r dev --outdir test-run
 
 5. Update your `.gitignore`
 
-```gitignore
+```codeowners
 .nextflow*
 work/
 data/
