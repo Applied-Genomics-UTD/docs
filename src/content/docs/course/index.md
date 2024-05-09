@@ -19,7 +19,7 @@ sidebar_label: "Overview"
 | ---: | ------: | ---------------------------------------------------- |
 |    1 | 5/28/24 | Introduction                                         |
 |      | 5/30/24 | Lab: Intro to Unix                                   |
-|    2 |  6/4/24 |                                                      |
+|    2 |  6/4/24 | Lab: Reproducible Research                                                                               |
 |      |  6/6/24 | Lab: Reproducible Computing                          |
 |    3 | 6/11/24 | Group Project 1 Introduction Lab: Snakemake pipeline |
 |      | 6/13/24 | Transcriptomics                                      |
@@ -32,7 +32,7 @@ sidebar_label: "Overview"
 |    7 |  7/9/24 | Epigenomics                                          |
 |      | 7/11/24 | Lab: ChIP-seq                                        |
 |    8 | 7/16/24 | Lab: ATAC-seq                                        |
-|      | 7/18/24 | Lab: methylC-seq                                     |
+|      | 7/18/24 | Lab: methyl-seq                                     |
 |    9 | 7/23/24 | Project work day                                     |
 |      | 7/25/24 | Project work day                                     |
 |   10 | 7/30/24 | Project work day                                     |

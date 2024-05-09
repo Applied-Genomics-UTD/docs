@@ -2,8 +2,10 @@
 id: overview
 title: Reproducible Research
 description: Reproducible Research
-sidebar_label: 'Reproducible Research'
-sidebar_position: 0
+sidebar:
+  label: 'Reproducible Research'
+  order: 1
+
 ---
 
 # Main Takeaways of the Week

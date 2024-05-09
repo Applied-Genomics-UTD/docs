@@ -2,8 +2,9 @@
 id: documentation
 title: Documentation
 description: How to use markdown
-sidebar_label: 'Documentation'
-sidebar_position: 4
+sidebar:
+  label: 'Documentation'
+  order: 4
 ---
 
 # Documentation

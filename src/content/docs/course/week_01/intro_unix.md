@@ -1,12 +1,11 @@
 ---
 id: unix
 title: Intro to Unix
-description: ''
-sidebar_label: 'Intro to Unix'
-sidebar_position: 2
+description: 'The core of bioinformatics tools'
+sidebar:
+  label: 'Intro to Unix'
+  order: 2
 ---
-
-# Intro to Unix
 
 ## Biostars Lecture
 

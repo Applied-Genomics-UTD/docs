@@ -2,8 +2,9 @@
 id: git
 title: Version Control Systems
 description: How to use git
-sidebar_label: 'Version Control Systems'
-sidebar_position: 2
+sidebar:
+  label: 'Version Control Systems'
+  order: 2
 ---
 
 # Version Control Systems
