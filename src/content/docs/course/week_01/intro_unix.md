@@ -1,5 +1,4 @@
 ---
-id: unix
 title: Intro to Unix
 description: 'The core of bioinformatics tools'
 sidebar:
@@ -15,43 +14,20 @@ sidebar:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQHJMsd5gRHxCwC8mQxNoD7sgCebbsEuuXsEhouvUxQ-2TcHmXSqol5cyX1ftxcwJ8etxwoPfLbWdCL/embed?start=false&amp;loop=false&amp;delayms=3000" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" width="100%" height="409" frameborder="0"></iframe>[^1]
 
-## [Biostar Handbook Unix Bootcamp](https://www.biostarhandbook.com/the-unix-bootcamp.html)
+## Terminal Basics
 
-:::info
-Page 144-169
-:::
+<iframe src="https://sandbox.bio/tutorials/terminal-basics" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" width="100%" height="1500" frameborder="0"></iframe>
 
-Open your `~/.bash_history` file after completing it and paste the commands you
-ran into a file named `unix-bootcamp.sh`
-
-## [Biostar Handbook Defense against the dark arts](https://www.biostarhandbook.com/defense-dark-arts.html)
-
-:::info
-Page 170-173
-:::
-
-Open your `~/.bash_history` file after completing it and paste the commands you
-ran into a file named `dark-arts.sh`
-
-## [Biostar Handbook Data analysis with Unix](https://www.biostarhandbook.com/unixanalyis.html#unixanalyis)
-
-:::info
-Page 174-188
-:::
-
-Open your `~/.bash_history` file after completing it and paste the commands you
-ran into a file named `data-analysis.sh`
-
-## [Biostar Handbook Data Compression](https://www.biostarhandbook.com/data-compression.html#data-compression)
-
-:::info
-Page 189-195
-:::
-
-Open your `~/.bash_history` file after completing it and paste the commands you
-ran into a file named `data-compression.sh`
+When you're finished click on the three dots in the terminal screen and select "Export as HTML" and commit the html file to your git repo
 
 [^1]: https://www.biostarhandbook.com/edu/lecture/view/88/
 <!-- TODO Add hardlink -->
 [^2]: Practical Research Computing Unix Lecture
 [^3]: [The Missing Semester: The Shell](https://missing.csail.mit.edu/2020/course-shell/)
+
+## Further Reading
+
+- [Biostar Handbook Unix Bootcamp](https://www.biostarhandbook.com/the-unix-bootcamp.html) (Page 144-169)
+- [Biostar Handbook Defense against the dark arts](https://www.biostarhandbook.com/defense-dark-arts.html) (Page 170-173)
+- [Biostar Handbook Data analysis with Unix](https://www.biostarhandbook.com/unixanalyis.html#unixanalyis) (Page 174-188)
+- [Biostar Handbook Data Compression](https://www.biostarhandbook.com/data-compression.html#data-compression) (Page 189-195)
