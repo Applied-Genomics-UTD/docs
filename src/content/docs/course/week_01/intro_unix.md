@@ -1,8 +1,8 @@
 ---
 title: Intro to Unix
-description: 'The core of bioinformatics tools'
+description: "The core of bioinformatics tools"
 sidebar:
-  label: 'Intro to Unix'
+  label: "Intro to Unix"
   order: 2
   # Add a badge to the link
   badge:
@@ -21,7 +21,9 @@ sidebar:
 When you're finished click on the three dots in the terminal screen and select "Export as HTML" and commit the html file to your git repo
 
 [^1]: https://www.biostarhandbook.com/edu/lecture/view/88/
+
 <!-- TODO Add hardlink -->
+
 [^2]: Practical Research Computing Unix Lecture
 [^3]: [The Missing Semester: The Shell](https://missing.csail.mit.edu/2020/course-shell/)
 
@@ -31,3 +33,9 @@ When you're finished click on the three dots in the terminal screen and select "
 - [Biostar Handbook Defense against the dark arts](https://www.biostarhandbook.com/defense-dark-arts.html) (Page 170-173)
 - [Biostar Handbook Data analysis with Unix](https://www.biostarhandbook.com/unixanalyis.html#unixanalyis) (Page 174-188)
 - [Biostar Handbook Data Compression](https://www.biostarhandbook.com/data-compression.html#data-compression) (Page 189-195)
+
+Other tutorials:
+
+https://sandbox.bio/tutorials/fastp-intro
+https://sandbox.bio/tutorials/bowtie2-intro
+https://sandbox.bio/tutorials/igv-intro
