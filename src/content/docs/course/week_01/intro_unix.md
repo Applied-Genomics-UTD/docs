@@ -20,6 +20,8 @@ sidebar:
 
 When you're finished click on the three dots in the terminal screen and select "Export as HTML" and commit the html file to your git repo
 
+Next complete debugging puzzle 1 https://sandbox.bio/tutorials/debugging-puzzles/1
+
 [^1]: https://www.biostarhandbook.com/edu/lecture/view/88/
 
 <!-- TODO Add hardlink -->
