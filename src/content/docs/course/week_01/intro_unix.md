@@ -8,6 +8,7 @@ sidebar:
   badge:
     text: Lab
     variant: tip
+draft: true
 ---
 
 ## Biostars Lecture

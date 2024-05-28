@@ -10,7 +10,7 @@ sidebar:
 
 <!-- TODO Remove the questioning -->
 
-## Why reproducible Research?
+## Reproducible Research
 
 To reduce wasted resources.
 
