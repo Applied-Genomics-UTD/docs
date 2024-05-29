@@ -14,5 +14,7 @@ sidebar:
 3. Follow [Primer: Copilot](https://education.github.com/experiences/primer_copilot)
 4. Extra: Install [GitHub Copilot Chat](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide#installing-the-github-copilot-chat-extension-in-visual-studio-code)
 5. Accept invite to Applied Genomics GitHub organization via Email
-<!-- TODO Add link -->
-<!-- 6. Create intro-unix Assignment Repo. -->
+6. Create [Intro to Git And GitHub](https://classroom.github.com/a/72Lr0_Dc) Assignment Repo.
+7. Optional: Go through the tutorial in the repo
+<!-- TODO Add tests to the repo for feedback? -->
+
