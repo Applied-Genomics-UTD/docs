@@ -11,7 +11,7 @@ sidebar:
 
 1. [Create a GitHub account](https://github.com/join)
 2. Email your username to Edmund([eam150030@utdallas.edu](mailto:eam150030+applied-genomics@utdallas.edu)).
-3. Join the [GitHub Classroom](https://classroom.github.com/classrooms/106270221-applied-genomics-24u)
+3. Join the [GitHub Classroom Assignment](https://classroom.github.com/a/72Lr0_Dc) for Intro to Git and GitHub
 4. Sign up for [GitHub Student Developer Pack](https://education.github.com/pack)
 5. Follow [Primer: Copilot](https://education.github.com/experiences/primer_copilot)
 6. Extra: Install [GitHub Copilot Chat](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide#installing-the-github-copilot-chat-extension-in-visual-studio-code)
