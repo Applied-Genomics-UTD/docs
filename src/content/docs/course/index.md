@@ -15,8 +15,8 @@ description: Week by week overview of course Labs and Lectures
 
 | Week |    Date |                                                      |
 | ---: | ------: | ---------------------------------------------------- |
-|    1 | 5/28/24 | Introduction                                         |
-|      | 5/30/24 | Lab: Intro to Unix                                   |
+|    1 | 5/28/24 | _Class Cancelled due to weather_                     |
+|      | 5/30/24 | Introduction \ Lab: Intro to Unix                    |
 |    2 |  6/4/24 | Lab: Reproducible Research                           |
 |      |  6/6/24 | Lab: Reproducible Computing                          |
 |    3 | 6/11/24 | Group Project 1 Introduction Lab: Snakemake pipeline |
