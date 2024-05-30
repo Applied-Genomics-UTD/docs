@@ -17,17 +17,23 @@ draft: true
 
 ## Terminal Basics
 
-<iframe src="https://sandbox.bio/tutorials/terminal-basics" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" width="100%" height="1500" frameborder="0"></iframe>
+Follow the [interactive tutorial at sandbox.bio](https://sandbox.bio/tutorials/terminal-basics")
 
-When you're finished click on the three dots in the terminal screen and select "Export as HTML" and commit the html file to your git repo
+When you're finished:
 
-Next complete debugging puzzle 1 https://sandbox.bio/tutorials/debugging-puzzles/1
+1. Click on the three dots in the terminal screen
+2. Select "Export as HTML"
+3. Join the ["Intro to Unix" GitHub Classroom Assignment](https://classroom.github.com/a/5IAb-YJf)
+4. Commit the html file to your intro-to-unix git repo
+
+Next complete the [Debugging Puzzle]](https://sandbox.bio/tutorials/debugging-puzzles/1)
 
 [^1]: https://www.biostarhandbook.com/edu/lecture/view/88/
 
 <!-- TODO Add hardlink -->
 
-[^2]: Practical Research Computing Unix Lecture
+<!-- [^2]: Practical Research Computing Unix Lecture -->
+
 [^3]: [The Missing Semester: The Shell](https://missing.csail.mit.edu/2020/course-shell/)
 
 ## Further Reading
