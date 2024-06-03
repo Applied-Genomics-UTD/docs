@@ -34,13 +34,12 @@ export default defineConfig({
             { label: "Overview", link: "/course/" },
             {
               label: "Week 1",
-              // link: "/course/week_01/",
               autogenerate: { directory: "/course/week_01/" },
             },
-            // {
-            //   label: "Week 2",
-            //   autogenerate: { directory: "/course/week_02/" },
-            // },
+            {
+              label: "Week 2",
+              autogenerate: { directory: "/course/week_02/" },
+            },
             // {
             //   label: "Week 3",
             //   autogenerate: { directory: "/course/week_03/" },

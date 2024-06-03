@@ -4,7 +4,7 @@ title: Version Control Systems
 description: How to use git
 sidebar:
   label: 'Version Control Systems'
-  order: 2
+  order: 3
 ---
 
 # Version Control Systems
