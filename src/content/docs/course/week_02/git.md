@@ -7,9 +7,7 @@ sidebar:
   order: 3
 ---
 
-# Version Control Systems
-
-## Why is git important for scientists?
+# Why is git important for scientists?
 
 | Research Stage               | Record Keeping                                               |
 | ---------------------------- | ------------------------------------------------------------ |
@@ -22,27 +20,29 @@ Version control of code == lab notebook of experiment
 
 [^1]
 
-## Intro to Git
+# Intro to Git
 
-### So what is Git?
+## So what is Git?
 
 Modern VCSs also let you easily (and often automatically) answer questions like[^2]:
 
-    - Who wrote this code?
-    - When was this particular line of this particular file edited? By whom? Why was it edited?
-    - Over the last 1000 revisions, when/why did this break? (And who broke it?)
+- Who wrote this code?
+- When was this particular line of this particular file edited? By whom? Why was it edited?
+- Over the last 1000 revisions, when/why did this break? (And who broke it?)
 
 ![git.png](https://imgs.xkcd.com/comics/git.png)
 
 In case you get lost check out [Further Reading](#further-reading)
 
-### VS Code Workflow
+https://gitimmersion.com/index.html
+
+## VS Code Git Workflow Reference
 
 :::caution
 Make sure you have installed `Git Lens` on remote machine.
 :::
 
-#### Set Your Identity
+### Set Your Identity
 
 In the integrated terminal put the following, but replace it with your name and email.
 
@@ -51,7 +51,7 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
-#### First Commit
+### First Commit
 
 Now we're going to make our first change, stage that change, and then commit it.
 
@@ -71,7 +71,7 @@ Our change has now been staged! We need to commit it to the git repo
 
 That was the first commit!
 
-#### Second commit
+### Second commit
 
 1. `Ctrl+p` and select `README.md`.
    - This is a handy way to jump between files in VS Code
@@ -110,7 +110,7 @@ Now we want to commit our changes:
 
 Now for practice, commit only the line that has "This will be the third commit"
 
-#### Viewing changes
+### Viewing changes
 
 :::warning
 This may not work on Sysbio becasue the git version is too old.
@@ -129,7 +129,7 @@ This may not work on Sysbio becasue the git version is too old.
 
 ![GitHub Workflow](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.c-sharpcorner.com%2Farticle%2Fgit-and-github-version-control-local-and-remote-repository%2FImages%2FGit%2520And%2520Github%2520Version%2520Control.png&f=1&nofb=1)
 
-#### Creating a remote
+### Creating a remote
 
 1. [Create a GitHub account](https://github.com/join)
 2. On the left hand side you should see Repositories and a green button that
@@ -148,25 +148,14 @@ git push -u origin main
    of the screen. Paste the commands in there.
 6. Check your GitHub repo and see if the code got pushed!
 
-# Submitting Assignment 1
-
-Let's make the tests pass!
-
-Open up your `~/.bash_history` and copy the commands for each section that you
-ran into some shell scripts. They don't have to be perfect!
-
-```
-code ~/.bash_history unix-bootcamp.sh dark-arts.sh data-analysis.sh data-compression.sh
-```
-
-You should see the GitHub classroom tests pass in your extension as well. These
-are just simple tests that are checking for the correct file.
-
-## Further Reading
+# Further Reading
 
 - [Missing Semester Version Control lecture](https://missing.csail.mit.edu/2020/version-control/)
 - [Pro Git Book](https://git-scm.com/book/en/v2)
 - [Resources to learn Git](https://try.github.io/)
+- [GitHub Training Manual](https://githubtraining.github.io/training-manual/)
+- [Git by Example](https://antonz.org/git-by-example/)
+- [githowto](https://githowto.com/create_a_project)
 
 [^1]: 04-git_workshop of HPC
 [^2]: [Missing Semester Version Control lecture](https://missing.csail.mit.edu/2020/version-control/)

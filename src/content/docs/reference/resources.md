@@ -38,6 +38,7 @@ sidebar_position: -1
 
 # VS Code
 
+- [Getting Started with Visual Studio Code Series](https://www.youtube.com/playlist?list=PLj6YeMhvp2S5UgiQnBfvD7XgOMKs3O_G6)
 - [R in 2021 with VSCode](https://datamares.netlify.app/en/post/r-vscode/)
 - [Setting up VS Code for Python Development like RStudio](https://stevenmortimer.com/setting-up-vs-code-for-python-development-like-rstudio/)
 

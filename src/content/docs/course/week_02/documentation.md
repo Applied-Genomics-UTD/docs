@@ -7,10 +7,6 @@ sidebar:
   order: 2
 ---
 
-# Documentation
-
-<!-- https://www.writethedocs.org/videos/eu/2017/the-four-kinds-of-documentation-and-why-you-need-to-understand-what-they-are-daniele-procida/ -->
-
 Markdown is a simple markup language for formatting elements using only _plaintext_.
 
 There's a few advantages to it over **WYSIWYG**(What You See Is What You Get) editors such as **Microsoft Word**.
@@ -29,11 +25,10 @@ Here are a few places to learn and reference:
 
 But the best way to learn it is to just use it!
 
-## Markdown Syntax Playground
-
-https://dillinger.io/
+## [Markdown Syntax Playground](https://dillinger.io/)
 
 # Further Reading
 
 - [Manubot](https://manubot.org/)
 - [Make a README](https://www.makeareadme.com/)
+- [The four kinds of documentation, and why you need to understand what they are](https://www.writethedocs.org/videos/eu/2017/the-four-kinds-of-documentation-and-why-you-need-to-understand-what-they-are-daniele-procida/)
