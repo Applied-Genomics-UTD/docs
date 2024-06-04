@@ -29,3 +29,7 @@ but not be a comprehensive overview itself.
 # Introduction Reading
 
 Pages **465-471** in `The Biostar Handbook`
+
+# Slides
+
+[Reproducible Research Slides](https://slides.applied-genomics.dev/reproducible_research)

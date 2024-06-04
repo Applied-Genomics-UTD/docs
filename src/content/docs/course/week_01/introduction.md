@@ -61,3 +61,7 @@ Research](https://github.com/leipzig/awesome-reproducible-research)
 2. Install
       <!-- TODO Add screenshot -->
    <!-- 3. Search in extensions for `Functional Genomics` -->
+
+# Slides
+
+[Introduction Slides](https://slides.applied-genomics.dev/introduction)
