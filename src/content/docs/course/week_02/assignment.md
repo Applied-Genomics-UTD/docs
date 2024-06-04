@@ -2,7 +2,6 @@
 title: Data analysis with Unix
 description: "How are Unix commands used for data analysis?"
 sidebar:
-  label: "Intro to Unix"
   order: 10
   # Add a badge to the link
   badge:
