@@ -5,4 +5,6 @@ sidebar:
   order: 1
 ---
 
+# [Slides](https://slides.com/johanneskoester/snakemake-tutorial)
+
 # Why Snakemake?
