@@ -2,7 +2,7 @@
 title: Reproducible Research
 description: Reproducible Research
 sidebar:
-  label: 'Reproducible Research'
+  label: "Reproducible Research"
   order: 1
 ---
 
@@ -33,3 +33,7 @@ Pages **465-471** in `The Biostar Handbook`
 # Slides
 
 [Reproducible Research Slides](https://slides.applied-genomics.dev/reproducible_research)
+
+# Further Reading
+
+- [More Slides on Reproducible Research](https://docs.google.com/presentation/d/e/2PACX-1vSBoRWfBef5mBZ7eXRmDzNmr7i5naJIZFsv2sQtK3Jg4T-aFj0IBd20tUqfw8116uFpjuCqAWc-mTzV/pub)
