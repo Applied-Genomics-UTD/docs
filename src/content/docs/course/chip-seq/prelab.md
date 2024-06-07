@@ -9,9 +9,15 @@ The [original paper](https://www.nature.com/articles/nature06008) doesn't list w
 
 Went on [SRA Explorer](https://sra-explorer.info/#) and searched the papers title. Opened up the Accession number of one of the samples([SRR006786](https://www.ncbi.nlm.nih.gov/sra/?term=SRR006786))
 
-Found the *study* accession number([PRJNA113703](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA113703)) from that page.
+Found the _study_ accession number([PRJNA113703](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA113703)) from that page.
 
 Went to [SRA Run Selector](https://trace.ncbi.nlm.nih.gov/Traces/study/) and searched the study accession number. Downloaded the Accession List:
+
+::: tip
+
+Checkout [NCBI Minute: Using the SRA RunSelector to Find NGS Datasets](https://www.youtube.com/watch?v=Ww_OTe3M_94) for a visual guide!
+
+:::
 
 ```txt
 SRR006786
