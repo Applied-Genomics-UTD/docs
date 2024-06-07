@@ -2,7 +2,6 @@
 title: Reproducible Research
 description: Reproducible Research
 sidebar:
-  label: "Reproducible Research"
   order: 1
 ---
 
