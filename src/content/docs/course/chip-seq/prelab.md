@@ -81,3 +81,13 @@ The Metadata is also in the `SraRunTable.txt`
 ## Preparing the samplesheet
 
 https://nf-co.re/chipseq/dev/docs/usage#multiple-replicates
+
+::: tip
+embryonic stem (ES) cells
+neural progenitors 
+embryonic fibroblasts
+:::
+
+[This file contains Supplementary Table 1 which includes the list of datasets analyzed. (XLS 15 kb)](https://static-content.springer.com/esm/art%3A10.1038%2Fnature06008/MediaObjects/41586_2007_BFnature06008_MOESM454_ESM.xls)
+
+[This file contains Supplementary Table 3 which includes the list of analyzed promoters and their chromatin state in ES cells, neural progenitors and embryonic fibroblasts. (XLS 3206 kb)](https://static-content.springer.com/esm/art%3A10.1038%2Fnature06008/MediaObjects/41586_2007_BFnature06008_MOESM456_ESM.xls)
