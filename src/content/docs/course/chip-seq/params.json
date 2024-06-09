@@ -1,7 +1,6 @@
 {
     "input": "samplesheet.csv",
     "outdir": "results",
-    "email": "eam150030@utdallas.edu",
     "multiqc_title": "Mikkelson_2007",
     "genome": "mm8",
     "fasta": "https://hgdownload.soe.ucsc.edu/goldenPath/mm8/bigZips/mm8.fa.gz",
