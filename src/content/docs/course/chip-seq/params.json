@@ -5,7 +5,7 @@
     "genome": "mm8",
     "fasta": "https://hgdownload.soe.ucsc.edu/goldenPath/mm8/bigZips/mm8.fa.gz",
     "gtf": "https://hgdownload.soe.ucsc.edu/goldenPath/archive/mm8/ensGene/mm8.ensGene.v46.gtf.gz",
-    "macs_gsize": 1870000000,
+    "macs_gsize": 2664455088,
     "save_reference": true,
     "aligner": "bowtie2"
 }
