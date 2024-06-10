@@ -32,3 +32,7 @@ But the best way to learn it is to just use it!
 - [Manubot](https://manubot.org/)
 - [Make a README](https://www.makeareadme.com/)
 - [The four kinds of documentation, and why you need to understand what they are](https://www.writethedocs.org/videos/eu/2017/the-four-kinds-of-documentation-and-why-you-need-to-understand-what-they-are-daniele-procida/)
+
+<!-- ![These Slides, Markdown](https://i.imgflip.com/8tg2mg.jpg) -->
+<!-- ![README, Markdown](https://i.imgflip.com/8tg2s7.jpg) -->
+<!-- ![Course site, Believe it or not Markdown](https://i.imgflip.com/8tg2tu.jpg) -->
