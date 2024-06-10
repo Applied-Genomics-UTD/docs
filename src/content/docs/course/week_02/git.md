@@ -3,7 +3,6 @@ id: git
 title: Version Control Systems
 description: How to use git
 sidebar:
-  label: 'Version Control Systems'
   order: 3
 ---
 
