@@ -98,3 +98,7 @@ embryonic fibroblasts
 ```
 nextflow run nf-core/chipseq -r 2.0.0 -profile utd_ganymede -resume -params-file nf-params.json
 ```
+
+## Further Reading
+
+https://github.com/cassj/mikkelsen07  ChIPseq data from Mikkelsen '07 (|doi:10.1038/nature06008) ?
