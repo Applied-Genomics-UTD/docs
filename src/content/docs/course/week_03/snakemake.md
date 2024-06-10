@@ -8,3 +8,11 @@ sidebar:
 # [Slides](https://slides.com/johanneskoester/snakemake-tutorial)
 
 # Why Snakemake?
+
+Why not Nextflow? Isn't nf-core built using Nextflow?
+
+In the past we did a Makefile based pipeline, and then moved on to Nextflow. The two have very different paradigmes a "pull" vs a "push" of the data.
+
+The main issue that we ran into is the [error message handling](https://github.com/nextflow-io/nextflow/issues/2082). Students were able to write workflows and get pretty far using GitHub Copilot. But inevitably, Copilot wrote some strange code and they had issues and the Nextflow interpreter spit out these errors that guided them to the complete wrong part of the code and they'd get really frustrated and it's difficult to get in a groove for a new user because you don't know what you're looking for.
+
+So to avoid the "you just learned Makefiles, now here's Snakemake" we're just going to skip directly over that and go right to Snakemake. Created in 1977, Make has its quirks. So we're just going avoid those quirks and skip right to the useful stuff!

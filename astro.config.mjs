@@ -74,6 +74,11 @@ export default defineConfig({
               link: "https://slides.applied-genomics.dev/unix_data_analysis/",
               // badge: { text: "Slides", variant: "caution" },
             },
+            {
+              label: "Snakemake",
+              link: "https://slides.com/johanneskoester/snakemake-tutorial",
+              // badge: { text: "Slides", variant: "caution" },
+            },
           ],
         },
         {
