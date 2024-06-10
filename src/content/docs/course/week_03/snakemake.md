@@ -7,6 +7,10 @@ sidebar:
 
 # [Slides](https://slides.com/johanneskoester/snakemake-tutorial)
 
+# Workflow Managers
+
+![Empowering bioinformatics communities with Nextflow and nf-core: Figure 1](https://www.biorxiv.org/content/biorxiv/early/2024/05/14/2024.05.10.592912/F1.medium.gif)
+
 # Why Snakemake?
 
 Why not Nextflow? Isn't nf-core built using Nextflow?
@@ -24,4 +28,4 @@ Snakemake has the features needed for academic work anyways(and a few Nextflow d
 3. Handling dependencies with Conda.
 4. Support for Slurm.
 5. Jupyter Notebooks built-in(Nextflow doesn't have this) for exploratory work.
-6. Wrappers for common bioinformatics tools.
+6. [Wrappers for common bioinformatics tools](https://snakemake-wrappers.readthedocs.io/en/stable/).
