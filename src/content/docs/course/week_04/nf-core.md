@@ -3,9 +3,6 @@ title: nf-core
 description: 'A community effort to collect a curated set of analysis pipelines built using Nextflow.'
 sidebar:
   order: 1
-  badge:
-    text: Lab
-    variant: tip
 ---
 
 ## nf-core Intro
