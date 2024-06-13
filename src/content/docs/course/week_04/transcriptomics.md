@@ -1,6 +1,8 @@
 ---
 title: Transcriptomics
 description: Lecture
+sidebar:
+  order: 1
 ---
 
 ## Reading

@@ -2,7 +2,7 @@
 title: nf-core
 description: 'A community effort to collect a curated set of analysis pipelines built using Nextflow.'
 sidebar:
-  order: 1
+  order: 2
 ---
 
 ## nf-core Intro

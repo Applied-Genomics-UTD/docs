@@ -1,8 +1,9 @@
 ---
 title: High Performance Computing
 description: 'How to use big computers'
-sidebar_label: 'HPC'
-sidebar_position: 2
+sidebar:
+  order: 3
+  hidden: true
 ---
 
 In the era of big data, we need big computers. Just like other expensive
