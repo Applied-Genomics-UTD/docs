@@ -3,10 +3,8 @@ title: Data analysis with Unix
 description: "How are Unix commands used for data analysis?"
 sidebar:
   order: 10
-  # Add a badge to the link
   badge:
     text: Lab
-    variant: tip
 ---
 
 [GitHub Classroom Assignment](https://classroom.github.com/a/h4dH0Tl_)

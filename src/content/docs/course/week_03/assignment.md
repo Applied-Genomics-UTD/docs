@@ -3,10 +3,8 @@ title: Intro to Snakemake
 description: "https://classroom.github.com/a/AouULae5"
 sidebar:
   order: 10
-  # Add a badge to the link
   badge:
     text: Lab
-    variant: tip
 ---
 
 [GitHub Classroom Assignment](https://classroom.github.com/a/AouULae5)

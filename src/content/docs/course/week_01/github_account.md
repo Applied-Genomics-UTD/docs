@@ -3,10 +3,8 @@ title: GitHub Account
 description: Making a GitHub account and joining the GitHub classroom
 sidebar:
   order: 2
-  # Add a badge to the link
   badge:
     text: Lab
-    variant: tip
 ---
 
 1. [Create a GitHub account](https://github.com/join)

@@ -4,10 +4,8 @@ description: "The core of bioinformatics tools"
 sidebar:
   label: "Intro to Unix"
   order: 2
-  # Add a badge to the link
   badge:
     text: Lab
-    variant: tip
 ---
 
 ## Biostars Lecture
