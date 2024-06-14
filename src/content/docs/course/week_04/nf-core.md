@@ -7,8 +7,8 @@ sidebar:
 
 ## nf-core Intro
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gUM9acK25tQ"
-title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+<iframe src="https://www.youtube.com/embed/gUM9acK25tQ"
+title="Introduction to nf-core" frameborder="0" allow="accelerometer; autoplay;
 clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
@@ -21,7 +21,7 @@ and **nf-core**!
 
 ### Testing a pipeline
 
-Usually you'd need to refer to the [nf-core installation docs](https://nf-co.re/usage/installation). 
+Usually you'd need to refer to the [nf-core installation docs](https://nf-co.re/usage/installation).
 
 However GitHub Codespaces cut out some of that work.
 
@@ -40,10 +40,10 @@ nextflow run nf-core/rnaseq -profile test,docker -r dev --outdir results
    browser. Preferably next to the [pipeline's output
    docs](https://nf-co.re/rnaseq/dev/output).
 
-::: info
-What's [MultiQC](https://multiqc.info/)?
+:::tip[What's MultiQC?]
 
 A tool that aggregate results from bioinformatics analyses across many samples into a single report.
 
-MultiQC searches a given directory for analysis logs and compiles a HTML report. It's a general use tool, perfect for summarizing the output from numerous bioinformatics tools. 
+MultiQC searches a given directory for analysis logs and compiles a HTML report. It's a general use tool, perfect for summarizing the output from numerous bioinformatics tools.
+
 :::
