@@ -83,12 +83,3 @@ nextflow run nf-core/chipseq -r dev -profile utd_sysbio -params-file nf-params.j
 The pipeline should start up, and email you when it's finished!
 
 While we're waiting let's check out the [shell script that would've ran all of that](https://www.biostarhandbook.com/ming-tangs-guide-to-chip-seq-analysis.html#shell-script-comes-to-rescue)
-
-## Download the Multiqc Report
-
-1. Open up the file explorer and navigate to
-   `results/multiqc/multiqc_report.html` and _right-click_ the html
-   file and select Download.
-2. Now that the multiqc report is on your local computer open it up in a web
-   browser. Preferably next to the [pipeline's output
-   docs](https://nf-co.re/chipseq/dev/output).

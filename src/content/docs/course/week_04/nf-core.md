@@ -21,35 +21,29 @@ and **nf-core**!
 
 ### Testing a pipeline
 
-[nf-core installation docs](https://nf-co.re/usage/installation)
+Usually you'd need to refer to the [nf-core installation docs](https://nf-co.re/usage/installation). 
 
-<!-- TODO These won't be necessary for a codespace -->
+However GitHub Codespaces cut out some of that work.
 
-1. Move into your chipseq repo
-2. Install Nextflow
-
-```bash
-curl -fsSL get.nextflow.io | bash
-mv nextflow ~/bin
-```
-
-3. Activate singularity
+Let's run:
 
 ```bash
-ml load singularity
+nextflow run nf-core/rnaseq -profile test,docker -r dev --outdir results
 ```
 
-4. Run
+### Download the Multiqc Report
 
-```bash
-nextflow run nf-core/rnaseq -profile test,utd_sysbio -r dev --outdir test-run
-```
+1. Open up the file explorer and navigate to
+   `results/multiqc/multiqc_report.html` and _right-click_ the html
+   file and select Download.
+2. Now that the [MultiQC](https://multiqc.info/) report is on your local computer open it up in a web
+   browser. Preferably next to the [pipeline's output
+   docs](https://nf-co.re/rnaseq/dev/output).
 
-5. Update your `.gitignore`
+::: info
+What's [MultiQC](https://multiqc.info/)?
 
-```codeowners
-.nextflow*
-work/
-data/
-results/
-```
+A tool that aggregate results from bioinformatics analyses across many samples into a single report.
+
+MultiQC searches a given directory for analysis logs and compiles a HTML report. It's a general use tool, perfect for summarizing the output from numerous bioinformatics tools. 
+:::
