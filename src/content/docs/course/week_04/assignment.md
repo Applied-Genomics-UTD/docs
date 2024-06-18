@@ -18,34 +18,38 @@ In order to clean up the output from nf-core/rnaseq into a format that can be us
 - [Biostar Handbook Counts file](http://data.biostarhandbook.com/books/rnaseq/data/counts.csv)
 - [Obtain the biostar handbook rnaseq scripts](http://data.biostarhandbook.com/books/rnaseq/code.tar.gz)
 
-## Steps
-
-### Biostar Handbook Reproduction
-
-Section 7 "The differntial expression" from I RNA-SEQ Step-by-step
-
-1. Download the scripts in the "code" archive to calculate the differential expression
-2. produce heatmaps
-3. Compare results
-
-### nf-core Golden Snidget Analysis
-
-<!-- 0. Login to Sysbio -->
-
-1. Run nf-core/rnaseq test profile by hand
-<!-- 1b. Launch Workflow on Sysbio -->
-2. Learn to wrap nf-core pipelines in Snakemake
-3. Create samplesheet.csv for nf-core/rnaseq
-4. Clean the data using Jupyter Notebooks
-5. produce heatmap
-6. Compare results with results from Biostar handbook
-
 ## Goals
 
-### Are the Two analysis similar?
+1. Reproduce the analysis in the Biostar handbook for the `counts.csv`(1 point each)
 
-Using the `compare_results.r` script
+   - [ ] `results.csv` for deseq2
+   - [ ] `heatmap` for deseq2
+   - [ ] `results.csv` for edgeR
+   - [ ] `heatmap` for edgeR
+   - [ ] `heatmap` for the example.csv
+   - [ ] A step to compare edgeR results to deseq2 using `compare_results.R`
 
+:::tip
+Section 7 "The differential expression" from I RNA-SEQ Step-by-step
+:::
+
+2. Reanalyze the Golden Snidget data using [nf-core/rnaseq](https://nf-co.re/rnaseq)(1 point each)
+    <!-- 0. Login to Sysbio -->
+   - [ ] Download the references
+   - [ ] Run the nf-core/rnaseq pipeline on the provided data
+   <!-- 1b. Launch Workflow on Sysbio -->
+   - [ ] Clean the results from the pipeline to a format that matches the `results.csv` created for deseq2 and edgeR in the Biostar Handbook using a Jupyter Notebook.
+   - [ ] Produce the heatmap for the nf-core results.
+   - [ ] Using the `compare_results.r` script compare the results between nf-core and the Biostar Handbook methods. Write the best method in the `README.md`.
+
+Bonus Points:
+
+1. The workflow is reproducible. The command ran will be `snakemake --cores 4`(Unless you state otherwise in the `README.md`) (2 Points)
+1. The workflow follows [Snakefmt](https://github.com/snakemake/snakefmt) and passes `snakefmt --check`.(2 Points)
+
+:::note
+The points purposely add up to more than 10.
+:::
 
 ## Useful Resources
 
