@@ -37,6 +37,8 @@ Section 7 "The differential expression" from I RNA-SEQ Step-by-step
     <!-- 0. Login to Sysbio -->
    - [ ] Download the references
    - [ ] Run the nf-core/rnaseq pipeline on the provided data
+     - [ ] Create a samplesheet for the workflow
+     - [ ] Pass the samplesheet, and reference files to the workflow
    <!-- 1b. Launch Workflow on Sysbio -->
    - [ ] Clean the results from the pipeline to a format that matches the `results.csv` created for deseq2 and edgeR in the Biostar Handbook using a Jupyter Notebook.
    - [ ] Produce the heatmap for the nf-core results.
