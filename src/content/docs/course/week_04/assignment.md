@@ -11,8 +11,6 @@ sidebar:
 
 A mash up of [RNA-seq by Example](https://www.biostarhandbook.com/books/rnaseq/introducing-the-golden-snidget.html), [nf-core](https://nf-co.re/rnaseq/3.14.0), and [Snakemake: Integrating foreign workflow management systems](https://snakemake.readthedocs.io/en/stable/snakefiles/foreign_wms.html). <!-- on a cluster -->
 
-## [Using Snakemake Jupyter Notebook integration](https://snakemake.readthedocs.io/en/stable/snakefiles/rules.html#jupyter-notebook-integration)
-
 In order to clean up the output from nf-core/rnaseq into a format that can be used by the biostar script we're going to use Jupyter Notebooks.
 
 ## Input files
@@ -45,3 +43,13 @@ Section 7 "The differntial expression" from I RNA-SEQ Step-by-step
 ## Goals
 
 ### Are the Two analysis similar?
+
+Using the `compare_results.r` script
+
+
+## Useful Resources
+
+- [Using R in Snakemake workflows](https://snakemake.readthedocs.io/en/stable/snakefiles/rules.html#r-and-r-markdown)
+- [nf-core/rnaseq Docs on Samplesheets](https://nf-co.re/rnaseq/3.14.0/docs/usage#full-samplesheet)
+- [nf-core/rnaseq Reference genome options](https://nf-co.re/rnaseq/3.14.0/docs/usage#reference-genome-options)
+- [Snakemake Jupyter Integration](https://snakemake.readthedocs.io/en/stable/snakefiles/rules.html#jupyter-notebook-integration)
