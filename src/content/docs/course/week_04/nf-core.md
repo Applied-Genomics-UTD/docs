@@ -102,7 +102,7 @@ rule rnaseq_pipeline:
 snakemake --cores 2
 ```
 
-:::tip [While you wait]
+:::tip[While you wait]
 
 You might compare the Snakemake rule and the `nextflow run ...` command that was used earlier to run the nf-core/rnaseq pipeline
 
