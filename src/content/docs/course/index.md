@@ -20,9 +20,9 @@ description: Week by week overview of course Labs and Lectures
 |    2 |  6/4/24 | Lab: Reproducible Research                  |
 |      |  6/6/24 | Lab: Unix Data Analysis                     |
 |    3 | 6/11/24 | Lab: Snakemake pipeline                     |
-|      | 6/13/24 | Transcriptomics                             |
-|    4 | 6/18/24 | Lab: nf-core                                |
-|      | 6/20/24 | Lab: High Performance Compute Clusters      |
+|      | 6/13/24 | Lab: Snakemake pipeline                     |
+|    4 | 6/18/24 | Lab: Transcriptomics                        |
+|      | 6/20/24 | Lab: nf-core                                |
 |    5 | 6/25/24 | Databases - UCSC genome browser, ENSEMBL    |
 |      | 6/27/24 | Lab: galaxy browser                         |
 |    6 |  7/2/24 | Lab: Cosmic database (online and R console) |
