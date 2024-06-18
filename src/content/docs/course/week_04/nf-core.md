@@ -28,7 +28,7 @@ However GitHub Codespaces cut out some of that work.
 Let's run:
 
 ```bash
-nextflow run nf-core/rnaseq -profile test,docker -r dev --outdir results
+nextflow run nf-core/rnaseq -profile test,docker --outdir results
 ```
 
 ### Download the Multiqc Report
