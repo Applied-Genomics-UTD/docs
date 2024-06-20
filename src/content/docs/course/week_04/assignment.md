@@ -56,6 +56,7 @@ The points purposely add up to more than 10.
 ## Useful Resources
 
 - [Using R in Snakemake workflows](https://snakemake.readthedocs.io/en/stable/snakefiles/rules.html#r-and-r-markdown)
+- [Snakemake Nextflow wrapper](https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/nextflow.html)
 - [nf-core/rnaseq Docs on Samplesheets](https://nf-co.re/rnaseq/3.14.0/docs/usage#full-samplesheet)
 - [nf-core/rnaseq Reference genome options](https://nf-co.re/rnaseq/3.14.0/docs/usage#reference-genome-options)
 - [Snakemake Jupyter Integration](https://snakemake.readthedocs.io/en/stable/snakefiles/rules.html#jupyter-notebook-integration)
