@@ -81,17 +81,16 @@ rule chipseq_pipeline:
 
 ## Testing nf-core/rnaseq in Snakemake
 
+<!-- TODO Highlight lines here -->
+
 ```snakemake title="Snakefile"
 rule rnaseq_pipeline:
     output:
         "results/multiqc/star_salmon/multiqc_report.html",
     params:
         pipeline="nf-core/rnaseq",
-        revision="dev",
+        revision="3.14.0",
         profile=["test", "docker"],
-        # The chosen pipeline expects an --outdir to be given.
-        # We infer this from the output file path. Since that file path can be changed
-        # e.g. in case of cloud storage, we use a lambda function to infer the outdir.
         outdir=lambda wildcards, output: str(Path(output[0]).parents[-2]),
     handover: True
     wrapper:
@@ -107,3 +106,31 @@ snakemake --cores 2
 You might compare the Snakemake rule and the `nextflow run ...` command that was used earlier to run the nf-core/rnaseq pipeline
 
 :::
+
+
+### Running the golden snidget Data
+
+
+<!-- TODO Highlight lines here -->
+
+```snakemake title="Snakefile"
+rule rnaseq_pipeline:
+    input:
+        "reads/BORED_1_R1.fq.gz",
+        input="inputs/samplesheet.csv",
+        fasta="refs/genome.fa",
+        gff="refs/features.gff",
+        transcript_fasta="refs/transcripts.fa",
+    output:
+        "results/multiqc/star_salmon/multiqc_report.html",
+        # TODO Add count file
+    params:
+        pipeline="nf-core/rnaseq",
+        revision="3.14.0",
+        profile=["docker"],
+        extra=["-c inputs/extra.config"]
+        outdir=lambda wildcards, output: str(Path(output[0]).parents[-2]),
+    handover: True
+    wrapper:
+        "v3.12.1/utils/nextflow"
+```
