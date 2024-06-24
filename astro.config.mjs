@@ -65,27 +65,26 @@ export default defineConfig({
             {
               label: "Introduction",
               link: "https://slides.applied-genomics.dev/introduction/",
-              // badge: { text: "Slides", variant: "caution" },
             },
             {
               label: "An Introduction to Unix",
               link: "https://docs.google.com/presentation/d/e/2PACX-1vQHJMsd5gRHxCwC8mQxNoD7sgCebbsEuuXsEhouvUxQ-2TcHmXSqol5cyX1ftxcwJ8etxwoPfLbWdCL/embed",
-              // badge: { text: "Slides", variant: "caution" },
             },
             {
               label: "Reproducible Research",
               link: "https://slides.applied-genomics.dev/reproducible_research/",
-              // badge: { text: "Slides", variant: "caution" },
             },
             {
               label: "Unix Data Analysis",
               link: "https://slides.applied-genomics.dev/unix_data_analysis/",
-              // badge: { text: "Slides", variant: "caution" },
             },
             {
               label: "Snakemake",
               link: "https://slides.com/johanneskoester/snakemake-tutorial",
-              // badge: { text: "Slides", variant: "caution" },
+            },
+            {
+              label: "Databases",
+              link: "/slides/databases.pdf",
             },
           ],
         },
