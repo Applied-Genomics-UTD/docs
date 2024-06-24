@@ -52,6 +52,10 @@ export default defineConfig({
             //   label: "ChIP-Seq",
             //   autogenerate: { directory: "/course/chip-seq/" },
             // },
+            {
+              label: "Project Guidelines",
+              link: "/course/project_guidelines/",
+            },
           ],
         },
         {
