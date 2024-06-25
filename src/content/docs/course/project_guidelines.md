@@ -3,7 +3,9 @@ title: Project Guidelines
 description: Following are the expectations for the independent project assignment.
 ---
 
-:::Caution[]
+[GitHub Classroom Assignment Link](https://classroom.github.com/a/ukhj76jx)
+
+:::Caution[Note]
 Following are the expectations for the independent project assignment.
 :::
 
