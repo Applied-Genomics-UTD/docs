@@ -2,7 +2,6 @@
     "input": "samplesheet.csv",
     "outdir": "results",
     "multiqc_title": "Mikkelson_2007",
-    "genome": "mm8",
     "fasta": "https://hgdownload.soe.ucsc.edu/goldenPath/mm8/bigZips/mm8.fa.gz",
     "gtf": "https://hgdownload.soe.ucsc.edu/goldenPath/archive/mm8/ensGene/mm8.ensGene.v46.gtf.gz",
     "macs_gsize": 2664455088,
