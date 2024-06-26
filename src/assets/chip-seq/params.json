@@ -3,5 +3,6 @@
     "outdir": "mm10-results",
     "multiqc_title": "Mikkelson_2007",
     "genome": "mm10",
-    "aligner": "bowtie2"
+    "aligner": "bowtie2",
+    "read_length": 50
 }
