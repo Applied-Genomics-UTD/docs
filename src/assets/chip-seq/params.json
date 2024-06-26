@@ -1,10 +1,7 @@
 {
     "input": "samplesheet.csv",
-    "outdir": "results",
+    "outdir": "mm10-results",
     "multiqc_title": "Mikkelson_2007",
-    "fasta": "https://hgdownload.soe.ucsc.edu/goldenPath/mm8/bigZips/mm8.fa.gz",
-    "gtf": "https://hgdownload.soe.ucsc.edu/goldenPath/archive/mm8/ensGene/mm8.ensGene.v46.gtf.gz",
-    "macs_gsize": 2664455088,
-    "save_reference": true,
+    "genome": "mm10",
     "aligner": "bowtie2"
 }
