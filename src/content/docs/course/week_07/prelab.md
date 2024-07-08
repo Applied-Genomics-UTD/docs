@@ -13,7 +13,7 @@ Found the _study_ accession number([PRJNA113703](https://www.ncbi.nlm.nih.gov/bi
 
 Went to [SRA Run Selector](https://trace.ncbi.nlm.nih.gov/Traces/study/) and searched the study accession number. Downloaded the Accession List:
 
-::: tip
+:::tip
 
 Checkout [NCBI Minute: Using the SRA RunSelector to Find NGS Datasets](https://www.youtube.com/watch?v=Ww_OTe3M_94) for a visual guide!
 
@@ -82,11 +82,11 @@ The Metadata is also in the `SraRunTable.txt`
 
 https://nf-co.re/chipseq/dev/docs/usage#multiple-replicates
 
-::: tip
-The cell types are 
+:::tip
+The cell types are
 
 embryonic stem (ES) cells
-neural progenitors 
+neural progenitors
 embryonic fibroblasts
 :::
 
@@ -102,8 +102,8 @@ An example samplesheet is at https://applied-genomics.dev/chip-seq/chipseq_mik_s
 nextflow run nf-core/chipseq -r 2.0.0 -profile utd_ganymede -resume -params-file nf-params.json
 ```
 
-[nf-parms.json](https://applied-genomics.dev/chip-seq/nf-param.json) 
+[nf-parms.json](https://applied-genomics.dev/chip-seq/nf-param.json)
 
 ## Further Reading
 
-https://github.com/cassj/mikkelsen07  ChIPseq data from Mikkelsen '07 (|doi:10.1038/nature06008)
+https://github.com/cassj/mikkelsen07 ChIPseq data from Mikkelsen '07 (|doi:10.1038/nature06008)
