@@ -83,6 +83,8 @@ The Metadata is also in the `SraRunTable.txt`
 https://nf-co.re/chipseq/dev/docs/usage#multiple-replicates
 
 ::: tip
+The cell types are 
+
 embryonic stem (ES) cells
 neural progenitors 
 embryonic fibroblasts
@@ -92,6 +94,7 @@ embryonic fibroblasts
 
 [This file contains Supplementary Table 3 which includes the list of analyzed promoters and their chromatin state in ES cells, neural progenitors and embryonic fibroblasts. (XLS 3206 kb)](https://static-content.springer.com/esm/art%3A10.1038%2Fnature06008/MediaObjects/41586_2007_BFnature06008_MOESM456_ESM.xls)
 
+An example samplesheet is at https://applied-genomics.dev/chip-seq/chipseq_mik_samplesheet.csv
 
 ## Running
 
@@ -99,6 +102,8 @@ embryonic fibroblasts
 nextflow run nf-core/chipseq -r 2.0.0 -profile utd_ganymede -resume -params-file nf-params.json
 ```
 
+[nf-parms.json](https://applied-genomics.dev/chip-seq/nf-param.json) 
+
 ## Further Reading
 
-https://github.com/cassj/mikkelsen07  ChIPseq data from Mikkelsen '07 (|doi:10.1038/nature06008) ?
+https://github.com/cassj/mikkelsen07  ChIPseq data from Mikkelsen '07 (|doi:10.1038/nature06008)
