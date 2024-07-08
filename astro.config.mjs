@@ -48,10 +48,18 @@ export default defineConfig({
               label: "Week 4",
               autogenerate: { directory: "/course/week_04/" },
             },
-            // {
-            //   label: "ChIP-Seq",
-            //   autogenerate: { directory: "/course/chip-seq/" },
-            // },
+            {
+              label: "Week 5",
+              autogenerate: { directory: "/course/week_05/" },
+            },
+            {
+              label: "Week 6",
+              autogenerate: { directory: "/course/week_06/" },
+            },
+            {
+              label: "Week 7",
+              autogenerate: { directory: "/course/week_07/" },
+            },
             {
               label: "Project Guidelines",
               link: "/course/project_guidelines/",
