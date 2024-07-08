@@ -2,7 +2,16 @@
 title: Downstream ChIP-seq Analysis
 # TODO
 description: Peaks
+sidebar:
+  order: 10
+  badge:
+    text: Lab
 ---
+
+1. Perform motif analysis on the MysteryFactorX Regions
+2. Visualize the Peaks in IGV
+3. Combine the Mystery Peaks with Peaks from Mikkelsen '07
+4. What TF is the MysteryFactorX associated with?
 
 ## Data
 
