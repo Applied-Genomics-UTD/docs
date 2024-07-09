@@ -22,3 +22,6 @@ sidebar:
 
 - [nf-core/chipseq 2.0.0](https://nf-co.re/chipseq/2.0.0/docs)
 
+:::tip
+`-meme-maxw` and `-meme-minw` have been replaced by`-maxw` and `-minw`
+:::
