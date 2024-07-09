@@ -12,7 +12,7 @@ sidebar:
 
 ## Instructions
 
-### IGV
+### [IGV](https://igv.org/app/)
 
 1. Visualize the regions in [IGV](https://igv.org/app/).
 2. Combine the MysteryFactorX Regions with Peaks for H3K4me3 and H3K27me3 from Mikkelsen '07. Reproduce [Figure 1](https://www.nature.com/articles/nature06008/figures/1) (without the ChIP-chip data) to the best of your ability using IGV, including the MysteryFactorX.
@@ -22,7 +22,7 @@ sidebar:
 3. Perform motif analysis on the MysteryFactorX Regions. Add a image of the motif to your README.
 4. What TF might the MysteryFactorX be?
 
-### BEDTOOLS
+### [Bedtools](https://bedtools.readthedocs.io/en/latest/index.html)
 
 5. How many MysteryFactorX regions overlap with H3K4me3 peaks?
 6. How many MysteryFactorX regions overlap with H3K27me3 peaks?
