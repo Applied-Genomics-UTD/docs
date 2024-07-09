@@ -8,7 +8,7 @@ sidebar:
     text: Lab
 ---
 
-## [GitHub Classroom Assignment](https://classroom.github.com/a/JYWPk0PG)
+## [GitHub Classroom Assignment](https://classroom.github.com/a/poR--rLb)
 
 ## Instructions
 
