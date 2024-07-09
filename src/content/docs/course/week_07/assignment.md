@@ -8,10 +8,16 @@ sidebar:
     text: Lab
 ---
 
-1. Perform motif analysis on the MysteryFactorX Regions
-2. Visualize the Peaks in IGV
-3. Combine the Mystery Peaks with Peaks from Mikkelsen '07
-4. What TF is the MysteryFactorX associated with?
+1. Visualize the regions in [IGV](https://igv.org/app/).
+2. Combine the MysteryFactorX Regions with Peaks for H3K4me3 and H3K27me3 from Mikkelsen '07. Reproduce [Figure 1](https://www.nature.com/articles/nature06008/figures/1) (without the ChIP-chip data) to the best of your ability using IGV, including the MysteryFactorX.
+3. Perform motif analysis on the MysteryFactorX Regions. Add a image of the motif to your README.
+4. What TF might the MysteryFactorX be?
+5. How many MysteryFactorX regions overlap with H3K4me3 peaks?
+6. How many MysteryFactorX regions overlap with H3K27me3 peaks?
+
+Feel free to use [igv-notebook](https://github.com/igvteam/igv-notebook), the [IGV web app](https://igv.org/app/), or the [IGV desktop application](https://igv.org/doc/desktop)! [igv-reports](https://github.com/igvteam/igv-reports) will also work!
+
+You may write a bash script, Jupyter Notebook, Snakemake or a combination of all three. Just document how to reproduce your analysis
 
 ## Data
 
@@ -21,6 +27,9 @@ sidebar:
 ## Useful Docs
 
 - [nf-core/chipseq 2.0.0](https://nf-co.re/chipseq/2.0.0/docs)
+- [Biostar Handbook: Using the Integrative Genomics Viewer](https://www.biostarhandbook.com/using-the-integrative-genomics-viewer.html) chapter
+- [Biostar Handbook: Chip-Seq motifs](https://www.biostarhandbook.com/chip-seq-motifs.html) chapter
+- [Biostar Handbook: Downstream Analysis 1](https://www.biostarhandbook.com/chip-seq-downstream-analysis-1.html) chapter
 
 :::tip
 `-meme-maxw` and `-meme-minw` have been replaced by`-maxw` and `-minw`
