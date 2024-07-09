@@ -38,10 +38,10 @@ You may write a bash script, Jupyter Notebook, Snakemake or a combination of all
 
 ## Useful Docs
 
-- [Biostar Handbook: Using the Integrative Genomics Viewer](https://www.biostarhandbook.com/using-the-integrative-genomics-viewer.html) chapter
-- [Biostar Handbook: Chip-Seq motifs](https://www.biostarhandbook.com/chip-seq-motifs.html) chapter
-- [Biostar Handbook: Downstream Analysis 1](https://www.biostarhandbook.com/chip-seq-downstream-analysis-1.html) chapter
 - [nf-core/chipseq 2.0.0](https://nf-co.re/chipseq/2.0.0)
+- [Biostar Handbook: Using the Integrative Genomics Viewer](https://www.biostarhandbook.com/using-the-integrative-genomics-viewer.html) Chapter 41 - Page 367
+- [Biostar Handbook: Chip-Seq motifs](https://www.biostarhandbook.com/chip-seq-motifs.html) Chapter 114 - Page 922
+- [Biostar Handbook: Downstream Analysis 1](https://www.biostarhandbook.com/chip-seq-downstream-analysis-1.html) Chapter 116 - Page 949
 
 :::tip
 `-meme-maxw` and `-meme-minw` have been replaced by`-maxw` and `-minw`
