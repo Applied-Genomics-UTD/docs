@@ -17,6 +17,9 @@ sidebar:
 1. Visualize the regions in [IGV](https://igv.org/app/).
 2. Combine the MysteryFactorX Regions with Peaks for H3K4me3 and H3K27me3 from Mikkelsen '07. Reproduce [Figure 1](https://www.nature.com/articles/nature06008/figures/1) (without the ChIP-chip data) to the best of your ability using IGV, including the MysteryFactorX.
 
+![Figure 1 Mikkelsen 07](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature06008/MediaObjects/41586_2007_Article_BFnature06008_Fig1_HTML.jpg?as=webp)
+Figure 1
+
 ### [MEME-ChIP](https://meme-suite.org/meme/doc/meme-chip.html?man_type=web)
 
 3. Perform motif analysis on the MysteryFactorX Regions. Add a image of the motif to your README.
