@@ -25,6 +25,10 @@ Figure 1
 3. Perform motif analysis on the MysteryFactorX Regions. Add a image of the motif to your README.
 4. What TF might the MysteryFactorX be?
 
+Example motif logo:
+
+![Example Logo](../../../../assets/week_07/WGGGTGTGGYYS.png)
+
 ### [Bedtools](https://bedtools.readthedocs.io/en/latest/index.html)
 
 5. How many MysteryFactorX regions overlap with H3K4me3 peaks?
