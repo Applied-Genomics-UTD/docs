@@ -16,7 +16,7 @@ sidebar:
 ## Data
 
 - [nf-core/chipseq results for Data from Mikkelsen 2007](https://huggingface.co/datasets/funlab/mikkelsen_2007)
-- [MysteryFactorX Regions](https://huggingface.co/datasets/funlab/applied-genomics/raw/main/chipseq/MysteryFactorX_ChIPseq_mm10.bed)
+- [MysteryFactorX Regions](https://huggingface.co/datasets/funlab/applied-genomics/resolve/main/chipseq/MysteryFactorX_ChIPseq_mm10.bed)
 
 ## Useful Docs
 
