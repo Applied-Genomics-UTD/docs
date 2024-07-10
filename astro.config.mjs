@@ -94,6 +94,10 @@ export default defineConfig({
               label: "Databases",
               link: "/slides/databases.pdf",
             },
+            {
+              label: "ChIP-SEQ",
+              link: "https://slides.applied-genomics.dev/chipseq/",
+            },
           ],
         },
         {
