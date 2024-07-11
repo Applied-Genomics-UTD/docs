@@ -57,3 +57,10 @@ You may write a bash script, Jupyter Notebook, Snakemake or a combination of all
 :::tip
 `-meme-maxw` and `-meme-minw` have been replaced by`-maxw` and `-minw`
 :::
+
+<!-- TODO Make this folded -->
+
+## Hints
+
+- Search a Gene name that's in the center of the figure to get the location of Figure 1
+- Read the Figure description to get the size of the window used in IGV
