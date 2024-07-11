@@ -45,7 +45,7 @@ Example motif logo:
 
 Feel free to use [igv-notebook](https://github.com/igvteam/igv-notebook), the [IGV web app](https://igv.org/app/), or the [IGV desktop application](https://igv.org/doc/desktop)! [igv-reports](https://github.com/igvteam/igv-reports) will also work!
 
-You may write a bash script, Jupyter Notebook, Snakemake or a combination of all three. Just document how to reproduce your analysis!
+You may write a bash script, Jupyter Notebook, Snakemake, Galaxy or a combination of all of them. Just document how to reproduce your analysis!
 
 ## Useful Docs
 
