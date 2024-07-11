@@ -10,6 +10,15 @@ sidebar:
 
 ## [GitHub Classroom Assignment](https://classroom.github.com/a/poR--rLb)
 
+## Data
+
+You've been given some data from a reanalysis of the paper [Genome-wide maps of chromatin state in pluripotent and lineage-committed cells](https://www.nature.com/articles/nature06008) using the nf-core/chipseq pipeline.
+
+You've also been given a file containing the MysteryFactorX regions.
+
+- [nf-core/chipseq results for Data from Mikkelsen 2007](https://huggingface.co/datasets/funlab/mikkelsen_2007)
+- [MysteryFactorX Regions](https://huggingface.co/datasets/funlab/applied-genomics/resolve/main/chipseq/MysteryFactorX_ChIPseq_mm10.bed)
+
 ## Instructions
 
 ### [IGV](https://igv.org/app/)
@@ -37,11 +46,6 @@ Example motif logo:
 Feel free to use [igv-notebook](https://github.com/igvteam/igv-notebook), the [IGV web app](https://igv.org/app/), or the [IGV desktop application](https://igv.org/doc/desktop)! [igv-reports](https://github.com/igvteam/igv-reports) will also work!
 
 You may write a bash script, Jupyter Notebook, Snakemake or a combination of all three. Just document how to reproduce your analysis!
-
-## Data
-
-- [nf-core/chipseq results for Data from Mikkelsen 2007](https://huggingface.co/datasets/funlab/mikkelsen_2007)
-- [MysteryFactorX Regions](https://huggingface.co/datasets/funlab/applied-genomics/resolve/main/chipseq/MysteryFactorX_ChIPseq_mm10.bed)
 
 ## Useful Docs
 
