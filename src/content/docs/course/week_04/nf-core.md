@@ -128,7 +128,7 @@ rule rnaseq_pipeline:
         pipeline="nf-core/rnaseq",
         revision="3.14.0",
         profile=["docker"],
-        extra=["-c inputs/extra.config"]
+        extra=["-c inputs/extra.config"],
         outdir=lambda wildcards, output: str(Path(output[0]).parents[-2]),
     handover: True
     wrapper:
