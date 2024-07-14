@@ -1,3 +1,11 @@
+---
+title: Intro to ATAC-seq
+description: Assignment using Galaxy to process ATAC-Seq data and analyze it
+sidebar:
+  order: 10
+  badge:
+    text: Lab
+---
 
 https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html
 
