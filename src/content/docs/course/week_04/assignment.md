@@ -39,15 +39,15 @@ Section 7 "The differential expression" from I RNA-SEQ Step-by-step
    - [ ] Run the nf-core/rnaseq pipeline on the provided data
      - [ ] Create a samplesheet for the workflow
      - [ ] Pass the samplesheet, and reference files to the workflow
-   <!-- 1b. Launch Workflow on Sysbio -->
+     <!-- 1b. Launch Workflow on Sysbio -->
    - [ ] Clean the results from the pipeline to a format that matches the `results.csv` created for deseq2 and edgeR in the Biostar Handbook using a Jupyter Notebook.
    - [ ] Produce the heatmap for the nf-core results.
    - [ ] Using the `compare_results.r` script compare the results between nf-core and the Biostar Handbook methods. Write the best method in the `README.md`.
 
 Bonus Points:
 
-1. The workflow is reproducible. The command ran will be `snakemake --cores 4`(Unless you state otherwise in the `README.md`) (2 Points)
-1. The workflow follows [Snakefmt](https://github.com/snakemake/snakefmt) and passes `snakefmt --check`.(2 Points)
+- [ ] The workflow is reproducible. The command ran will be `snakemake --cores 4`(Unless you state otherwise in the `README.md`) (2 Points)
+- [ ] The workflow follows [Snakefmt](https://github.com/snakemake/snakefmt) and passes `snakefmt --check`.(2 Points)
 
 :::note
 The points purposely add up to more than 10.
