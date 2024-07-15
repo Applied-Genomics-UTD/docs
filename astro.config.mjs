@@ -99,6 +99,10 @@ export default defineConfig({
               link: "/slides/databases.pdf",
             },
             {
+              label: "Epigenomics",
+              link: "/slides/epigenomics.pdf",
+            },
+            {
               label: "ChIP-SEQ",
               link: "https://slides.applied-genomics.dev/chipseq/",
             },
