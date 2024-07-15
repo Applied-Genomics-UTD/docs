@@ -61,6 +61,10 @@ export default defineConfig({
               autogenerate: { directory: "/course/week_07/" },
             },
             {
+              label: "Week 8",
+              autogenerate: { directory: "/course/week_08/" },
+            },
+            {
               label: "Project Guidelines",
               link: "/course/project_guidelines/",
             },
