@@ -44,7 +44,10 @@ chr22_enriched,https://zenodo.org/record/3862793/files/SRR891268_chr22_enriched_
   "read_length": 50,
   "fasta": "https://hgdownload.cse.ucsc.edu/goldenpath/hg38/chromosomes/chr22.fa.gz",
   "gtf": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.ncbiRefSeq.gtf.gz",
-  "aligner": "bowtie2"
+  "aligner": "bowtie2",
+  "max_cpus":   4,
+  "max_memory": "14.GB",
+  "max_time":   "6.h"
 }
 ```
 
