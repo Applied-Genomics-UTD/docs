@@ -15,24 +15,25 @@ Redo the analysis with nf-core/atac-seq
 
 https://zenodo.org/record/3862793/files/ENCFF933NTR.bed.gz
 
-```
+```csv title="samplesheet.csv"
 sample,fastq_1,fastq_2,replicate
 chr22_enriched,https://zenodo.org/record/3862793/files/SRR891268_chr22_enriched_R1.fastq.gz,https://zenodo.org/record/3862793/files/SRR891268_chr22_enriched_R2.fastq.gz,1
 ```
 
-```sh
-nextflow run nf-core/atacseq --input samplesheet.csv -profile docker,test --outdir results --genome hg38
-```
-
-```json title="nf-params.json
+```json title="nf-params.json"
 {
-  input: "samplesheet.csv",
-  read_length: 50,
-  genome: "hg38",
+  "input": "samplesheet.csv",
+  "outdir": "results",
+  "read_length": 50,
+  "fasta": "https://hgdownload.cse.ucsc.edu/goldenpath/hg38/chromosomes/chr22.fa.gz",
+  "gtf": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.ncbiRefSeq.gtf.gz",
+  "aligner": "bowtie2"
 }
 ```
 
-
+```sh
+nextflow run nf-core/atacseq -r 2.1.2 -profile utd_ganymede -params-file nf-params.json -resume
+```
 
 ```bibtex
 @misc{epigenetics-atac-seq,
