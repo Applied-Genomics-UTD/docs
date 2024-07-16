@@ -64,3 +64,18 @@ You may write a bash script, Jupyter Notebook, Snakemake, Galaxy or a combinatio
 
 - Search a Gene name that's in the center of the figure to get the location of Figure 1
 - Read the Figure description to get the size of the window used in IGV
+
+<details>
+<summary>Running MEME-ChIP on chr1 only</summary>
+
+```bash
+wget https://hgdownload.cse.ucsc.edu/goldenPath/mm10/chromosomes/chr1.fa.gz
+gunzip chr1.fa.gz
+samtools faidx chr1.fa
+wget https://huggingface.co/datasets/funlab/applied-genomics/resolve/main/chipseq/MysteryFactorX_ChIPseq_mm10.bed
+sed -i '/^chr1\s/!d' MysteryFactorX_ChIPseq_mm10.bed
+bedtools slop -g chr1.fa.fai -i MysteryFactorX_ChIPseq_mm10.bed -b 50 > extended.bed
+bedtools getfasta -bed extended.bed -fi chr1.fa -fo sequences.fa
+```
+
+</details>
