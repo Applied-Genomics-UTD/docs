@@ -29,6 +29,13 @@ You've also been given a file containing the MysteryFactorX regions.
 ![Figure 1 Mikkelsen 07](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature06008/MediaObjects/41586_2007_Article_BFnature06008_Fig1_HTML.jpg?as=webp)
 Figure 1
 
+<details>
+<summary>If you're using IGV Desktop</summary>
+
+Select `mm10` as the genome, or download a fasta for just [chr11 for mm10](https://hgdownload.soe.ucsc.edu/goldenpath/mm10/chromosomes/chr11.fa.gz).
+
+</details>
+
 ### [MEME-ChIP](https://meme-suite.org/meme/doc/meme-chip.html?man_type=web)
 
 3. Perform motif analysis on the MysteryFactorX Regions. Add a image of the motif to your README.
@@ -37,6 +44,23 @@ Figure 1
 Example motif logo:
 
 ![Example Logo](../../../../assets/week_07/WGGGTGTGGYYS.png)
+
+<details>
+<summary>Running MEME-ChIP on chr1 only</summary>
+
+If running MEME-ChIP is taking a long time, you might create a sequences fasta of only `chr1`.
+
+```bash
+wget https://hgdownload.cse.ucsc.edu/goldenPath/mm10/chromosomes/chr1.fa.gz
+gunzip chr1.fa.gz
+samtools faidx chr1.fa
+wget https://huggingface.co/datasets/funlab/applied-genomics/resolve/main/chipseq/MysteryFactorX_ChIPseq_mm10.bed
+sed -i '/^chr1\s/!d' MysteryFactorX_ChIPseq_mm10.bed
+bedtools slop -g chr1.fa.fai -i MysteryFactorX_ChIPseq_mm10.bed -b 50 > extended.bed
+bedtools getfasta -bed extended.bed -fi chr1.fa -fo sequences.fa
+```
+
+</details>
 
 ### [Bedtools](https://bedtools.readthedocs.io/en/latest/index.html)
 
@@ -64,18 +88,3 @@ You may write a bash script, Jupyter Notebook, Snakemake, Galaxy or a combinatio
 
 - Search a Gene name that's in the center of the figure to get the location of Figure 1
 - Read the Figure description to get the size of the window used in IGV
-
-<details>
-<summary>Running MEME-ChIP on chr1 only</summary>
-
-```bash
-wget https://hgdownload.cse.ucsc.edu/goldenPath/mm10/chromosomes/chr1.fa.gz
-gunzip chr1.fa.gz
-samtools faidx chr1.fa
-wget https://huggingface.co/datasets/funlab/applied-genomics/resolve/main/chipseq/MysteryFactorX_ChIPseq_mm10.bed
-sed -i '/^chr1\s/!d' MysteryFactorX_ChIPseq_mm10.bed
-bedtools slop -g chr1.fa.fai -i MysteryFactorX_ChIPseq_mm10.bed -b 50 > extended.bed
-bedtools getfasta -bed extended.bed -fi chr1.fa -fo sequences.fa
-```
-
-</details>
