@@ -113,6 +113,10 @@ export default defineConfig({
           autogenerate: { directory: "reference" },
           collapsed: true,
         },
+        {
+          label: "AI Bot",
+          link: "https://hf.co/chat/assistant/66a9386946b060ca6f9e80db",
+        },
       ],
       plugins: [
         starlightLinksValidator({
